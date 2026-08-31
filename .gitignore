@@ -1,0 +1,9 @@
+# Live configuration and secrets. Only the .example files are published.
+.env
+*.env
+!.env.example
+vault-keys.txt
+vault-init-raw.json
+docker-compose/.env
+docker-compose/vault-keys.txt
+*.bak
